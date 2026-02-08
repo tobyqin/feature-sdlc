@@ -16,21 +16,21 @@ From architecture to business strategy
 ### Solution Design
 
 {{< cards >}}
-{{< card link="solution-design" title="Solution Design" icon="cube" subtitle="3-tier architecture: MVP → Growth → Enterprise" >}}
-{{< card link="solution-design-v2" title="Solution Design v2" icon="cube-transparent" subtitle="Enterprise platform with integration focus" >}}
+{{< card link="design/solution-design" title="Solution Design" icon="cube" subtitle="3-tier architecture: MVP → Growth → Enterprise" >}}
+{{< card link="design/solution-design-v2" title="Solution Design v2" icon="cube-transparent" subtitle="Enterprise platform with integration focus" >}}
 {{< /cards >}}
 
 ### Business Planning
 
 {{< cards >}}
-{{< card link="lean-canvas" title="Lean Canvas v1" icon="chart-bar" subtitle="Product-market fit and value proposition" >}}
-{{< card link="lean-canvas-v2" title="Lean Canvas v2" icon="chart-pie" subtitle="Enterprise platform strategy" >}}
+{{< card link="lean-canvas/lean-canvas" title="Lean Canvas v1" icon="chart-bar" subtitle="Product-market fit and value proposition" >}}
+{{< card link="lean-canvas/lean-canvas-v2" title="Lean Canvas v2" icon="chart-pie" subtitle="Enterprise platform strategy" >}}
 {{< /cards >}}
 
 ### AI Integration
 
 {{< cards >}}
-{{< card link="ai-integration" title="AI-Powered FeatureOps" icon="sparkles" subtitle="12 AI integration scenarios for automation" >}}
+{{< card link="design/ai-integration" title="AI-Powered FeatureOps" icon="sparkles" subtitle="12 AI integration scenarios for automation" >}}
 {{< /cards >}}
 
 ## Document Overview
@@ -46,8 +46,8 @@ From architecture to business strategy
 If you're new to FeatureOps:
 
 1. Start with [Industry Research](research/) to understand how top companies do it
-2. Read [Solution Design](solution-design) to learn architecture patterns
-3. Explore [AI Integration](ai-integration) for future capabilities
+2. Read [Solution Design](design/solution-design) to learn architecture patterns
+3. Explore [AI Integration](design/ai-integration) for future capabilities
 
 ## Contributing
 
