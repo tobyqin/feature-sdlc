@@ -34,6 +34,12 @@ theme = 'ananke'
     url = '/docs/solution-design/'
     weight = 40
 
+  [[menu.main]]
+    identifier = 'lean-canvas'
+    name = 'Lean Canvas'
+    url = '/docs/lean-canvas/'
+    weight = 50
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
