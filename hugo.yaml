@@ -1,6 +1,6 @@
-baseURL: 'https://tobyqin.cn/feature-sdlc/'
-title: 'Feature Ops'
-languageCode: 'en-us'
+baseURL: "https://tobyqin.cn/feature-sdlc/"
+title: "Feature Ops"
+languageCode: "en-us"
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -63,7 +63,7 @@ menu:
       weight: 2
     - identifier: research
       name: Research
-      pageRef: /research
+      pageRef: /docs/research
       weight: 3
     - identifier: docs
       name: Documentation

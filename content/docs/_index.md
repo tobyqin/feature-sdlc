@@ -45,7 +45,7 @@ From architecture to business strategy
 
 If you're new to FeatureOps:
 
-1. Start with [Industry Research](../research/) to understand how top companies do it
+1. Start with [Industry Research](research/) to understand how top companies do it
 2. Read [Solution Design](solution-design) to learn architecture patterns
 3. Explore [AI Integration](ai-integration) for future capabilities
 
