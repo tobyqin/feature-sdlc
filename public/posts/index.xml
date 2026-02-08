@@ -1,9 +1,0 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Feature Ops – Posts</title><link>https://tobyqin.cn/feature-sdlc/posts/</link><description>Recent content in Posts on Feature Ops</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Feb 2026 03:33:02 +0000</lastBuildDate><atom:link href="https://tobyqin.cn/feature-sdlc/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to Feature Ops</title><link>https://tobyqin.cn/feature-sdlc/posts/welcome-to-feature-ops/</link><pubDate>Sun, 08 Feb 2026 03:33:02 +0000</pubDate><guid>https://tobyqin.cn/feature-sdlc/posts/welcome-to-feature-ops/</guid><description>
-&lt;p>Welcome to the Feature Ops Portal! This site documents industry best practices for Feature Operations based on comprehensive research of leading technology companies.&lt;/p>
-&lt;h2>What You&amp;rsquo;ll Find Here&lt;span class="hx:absolute hx:-mt-20" id="what-youll-find-here">&lt;/span>
-&lt;a href="#what-youll-find-here" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>Industry Research&lt;/strong>: Deep dives into how Amazon, Netflix, Meta, Spotify, Shopify, Microsoft, ByteDance, and Alibaba implement Feature Ops&lt;/li>
-&lt;li>&lt;strong>Comparison Matrix&lt;/strong>: Side-by-side analysis across 10 dimensions&lt;/li>
-&lt;li>&lt;strong>Solution Design&lt;/strong>: 3-tier architecture from MVP to Enterprise&lt;/li>
-&lt;/ul>
-&lt;p>Navigate using the menu above to explore the research.&lt;/p></description></item></channel></rss>
