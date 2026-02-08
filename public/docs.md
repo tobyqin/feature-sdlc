@@ -1,8 +1,4 @@
----
-linkTitle: Documentation
-title: FeatureOps Documentation
----
-
+# FeatureOps Documentation
 ## FeatureOps Documentation
 
 This section provides comprehensive guides for designing, implementing, and operating FeatureOps platforms — from architecture decisions to business planning.

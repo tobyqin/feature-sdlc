@@ -1,8 +1,4 @@
----
-linkTitle: Research
-title: Industry Research
----
-
+# Industry Research
 ## FeatureOps Industry Research
 
 This section contains comprehensive research on how leading technology companies implement Feature Operations (FeatureOps) — the practice of managing software features from ideation to deployment and beyond.
