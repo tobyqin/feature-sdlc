@@ -16,8 +16,17 @@ Comprehensive research on **Feature Operations (FeatureOps)** practices at leadi
 
 ### Prerequisites
 
-- [Hugo](https://gohugo.io/installation/) (extended edition recommended)
+- [Hugo](https://gohugo.io/installation/) **v0.146.0 or later** (extended edition recommended)
 - [Git](https://git-scm.com/)
+
+To install or upgrade Hugo on macOS:
+
+```bash
+# Via Homebrew
+brew install hugo
+
+# Or download the latest release from https://github.com/gohugoio/hugo/releases
+```
 
 ### Clone the Repository
 
