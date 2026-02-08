@@ -27,7 +27,7 @@ menu:
       weight: 1
     - identifier: research
       name: Research
-      pageRef: /research
+      pageRef: /docs/research
       weight: 2
     - identifier: docs
       name: Docs
@@ -35,7 +35,7 @@ menu:
       weight: 3
     - identifier: comparison
       name: Comparison
-      pageRef: /research/comparison-matrix
+      pageRef: /docs/research/comparison-matrix
       weight: 4
     - identifier: solution
       name: Solution Design
