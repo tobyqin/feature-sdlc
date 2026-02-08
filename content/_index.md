@@ -1,61 +1,61 @@
 ---
-title: "Feature Ops Portal"
-date: 2026-02-08T07:00:00Z
-draft: false
+title: Feature Ops
+layout: hextra-home
 ---
 
-# Feature Ops Portal
+{{< hextra/hero-badge >}}
+  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
+  <span>Industry Research</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 
-Welcome to the comprehensive resource for Feature Operations (Feature Ops) - the practice of managing software features from ideation to deployment and beyond.
+<div class="hx:mt-6 hx:mb-6">
+{{< hextra/hero-headline >}}
+  Master Feature Operations&nbsp;<br class="hx:sm:block hx:hidden" />Like Top Tech Companies
+{{< /hextra/hero-headline >}}
+</div>
 
-## What is Feature Ops?
+<div class="hx:mb-12">
+{{< hextra/hero-subtitle >}}
+  Comprehensive research on how Amazon, Netflix, Meta, Spotify,&nbsp;<br class="hx:sm:block hx:hidden" />and others deploy fearlessly, experiment continuously, and ship confidently
+{{< /hextra/hero-subtitle >}}
+</div>
 
-Feature Ops encompasses the tools, processes, and culture required to:
-- **Deploy safely** using feature flags and gradual rollouts
-- **Experiment effectively** with A/B testing and data-driven decisions  
-- **Coordinate across teams** with independent feature lifecycles
-- **Operate at scale** with enterprise-grade infrastructure
+<div class="hx:mb-6">
+{{< hextra/hero-button text="Explore Research" link="research" >}}
+</div>
 
-## Quick Navigation
+<div class="hx:mt-6"></div>
 
-### 📊 Industry Research
-Deep dives into how leading tech companies implement Feature Ops:
-
-- [Amazon](/research/amazon-feature-ops/) - AWS AppConfig and safe configuration management
-- [Netflix](/research/netflix-feature-ops/) - XP Platform and 10,000+ experiments/year
-- [Meta](/research/meta-feature-ops/) - Gatekeeper and the "Move Fast" culture
-- [Spotify](/research/spotify-feature-ops/) - Confidence platform and holdbacks
-- [Shopify](/research/shopify-feature-ops/) - Beta Flags for B2B SaaS
-- [Microsoft](/research/microsoft-feature-ops/) - Azure enterprise approach
-- [ByteDance](/research/bytedance-feature-ops/) - Algorithm experimentation at TikTok
-- [Alibaba](/research/alibaba-feature-ops/) - GMV-optimized e-commerce
-
-### 📈 Comparison Matrix
-[Side-by-side comparison](/research/comparison-matrix/) of all 8 companies across 10 dimensions.
-
-### 🏗️ Solution Design
-[3-tier architecture guide](/docs/solution-design/) - from MVP to Enterprise.
-
----
-
-## Key Insights
-
-| Company | Key Innovation |
-|---------|---------------|
-| **Amazon** | Automatic rollback with CloudWatch alarms |
-| **Netflix** | Statistical rigor at massive scale |
-| **Meta** | Self-service experimentation for 10,000+ engineers |
-| **Spotify** | Holdbacks for long-term impact measurement |
-| **Shopify** | Per-shop granularity for B2B SaaS |
-| **Microsoft** | Enterprise compliance integration |
-| **ByteDance** | Real-time algorithm A/B testing |
-| **Alibaba** | GMV-driven, mobile-first experimentation |
-
----
-
-## About This Site
-
-This portal documents industry best practices for Feature Operations based on research of 8 major technology companies. All content is professionally written with source citations from official engineering blogs, conference talks, and technical documentation.
-
-**Last Updated:** February 8, 2026  
-**Research Status:** Complete
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="8 Companies Analyzed"
+    subtitle="Deep dives into Amazon, Netflix, Meta, Spotify, Shopify, Microsoft, ByteDance, and Alibaba's FeatureOps practices."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(59,130,246,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Comparison Matrix"
+    subtitle="Side-by-side comparison across 10 dimensions: architecture, experimentation, deployment strategies, and more."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(168,85,247,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Solution Design"
+    subtitle="3-tier architecture guide: from MVP (startup) to Growth (mid-size) to Enterprise (large organization)."
+    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(236,72,153,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="AI Integration"
+    subtitle="12 AI-powered scenarios: from intelligent experiment design to autonomous optimization and cross-experiment learning."
+  >}}
+  {{< hextra/feature-card
+    title="Business Planning"
+    subtitle="Complete Lean Canvas with market analysis, competitive landscape, and go-to-market strategy for FeatureOps products."
+  >}}
+  {{< hextra/feature-card
+    title="Open Source"
+    subtitle="All research is open and freely accessible. Contribute on GitHub to help improve the industry knowledge base."
+  >}}
+{{< /hextra/feature-grid >}}

@@ -1,52 +1,134 @@
-baseURL = 'https://tobyqin.cn/feature-sdlc/'
-languageCode = 'en-us'
-title = 'Feature Ops Portal'
-theme = 'ananke'
+baseURL: 'https://tobyqin.cn/feature-sdlc/'
+title: 'Feature Ops'
+languageCode: 'en-us'
 
-[params]
-  author = 'Feature Ops Research Team'
-  description = 'Comprehensive research on Feature Operations practices at leading tech companies'
-  featured_image = '/images/gohugo-default-sample-hero-image.jpg'
-  recent_posts_number = 10
+enableRobotsTXT: true
+enableGitInfo: true
 
-[menu]
-  [[menu.main]]
-    identifier = 'home'
-    name = 'Home'
-    url = '/'
-    weight = 10
+outputs:
+  home: [html, llms]
+  page: [html, markdown]
+  section: [html, rss, markdown]
 
-  [[menu.main]]
-    identifier = 'research'
-    name = 'Research'
-    url = '/research/'
-    weight = 20
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
 
-  [[menu.main]]
-    identifier = 'comparison'
-    name = 'Comparison'
-    url = '/research/comparison-matrix/'
-    weight = 30
+module:
+  imports:
+    - path: github.com/imfing/hextra
 
-  [[menu.main]]
-    identifier = 'solution'
-    name = 'Solution Design'
-    url = '/docs/solution-design/'
-    weight = 40
+menu:
+  main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 1
+    - identifier: research
+      name: Research
+      pageRef: /research
+      weight: 2
+    - identifier: docs
+      name: Docs
+      pageRef: /docs
+      weight: 3
+    - identifier: comparison
+      name: Comparison
+      pageRef: /research/comparison-matrix
+      weight: 4
+    - identifier: solution
+      name: Solution Design
+      pageRef: /docs/solution-design
+      weight: 5
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/tobyqin/feature-sdlc"
+      params:
+        icon: github
+    - name: Search
+      weight: 7
+      params:
+        type: search
 
-  [[menu.main]]
-    identifier = 'lean-canvas'
-    name = 'Lean Canvas'
-    url = '/docs/lean-canvas/'
-    weight = 50
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: home
+      name: Home
+      pageRef: /
+      weight: 2
+    - identifier: research
+      name: Research
+      pageRef: /research
+      weight: 3
+    - identifier: docs
+      name: Documentation
+      pageRef: /docs
+      weight: 4
 
-  [[menu.main]]
-    identifier = 'ai-integration'
-    name = 'AI Integration'
-    url = '/docs/ai-integration/'
-    weight = 60
+params:
+  description: Comprehensive research on Feature Operations practices at leading tech companies
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: wide
+
+  theme:
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  editURL:
+    enable: true
+    base: "https://github.com/tobyqin/feature-sdlc/edit/main/content"
+
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+      pagerSize: 20
+    article:
+      displayPagination: true
+
+  toc:
+    displayTags: true
+
+  highlight:
+    copy:
+      enable: true
+      display: hover
+
+  page:
+    width: normal
+    contextMenu:
+      enable: true
+      links:
+        - name: Open in ChatGPT
+          icon: chatgpt
+          url: "https://chatgpt.com/?hints=search&q=I%27m+looking+at+this+documentation%3A+{url}%0AHelp+me+understand+how+to+use+it."
+
+  imageZoom:
+    enable: true
