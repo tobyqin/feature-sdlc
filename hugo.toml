@@ -40,6 +40,12 @@ theme = 'ananke'
     url = '/docs/lean-canvas/'
     weight = 50
 
+  [[menu.main]]
+    identifier = 'ai-integration'
+    name = 'AI Integration'
+    url = '/docs/ai-integration/'
+    weight = 60
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
