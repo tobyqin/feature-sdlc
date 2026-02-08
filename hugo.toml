@@ -1,4 +1,40 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tobyqin.cn/feature-sdlc/'
 languageCode = 'en-us'
-title = "Feature Ops Portal"
+title = 'Feature Ops Portal'
 theme = 'ananke'
+
+[params]
+  author = 'Feature Ops Research Team'
+  description = 'Comprehensive research on Feature Operations practices at leading tech companies'
+  featured_image = '/images/gohugo-default-sample-hero-image.jpg'
+  recent_posts_number = 10
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'research'
+    name = 'Research'
+    url = '/research/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'comparison'
+    name = 'Comparison'
+    url = '/research/comparison-matrix/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'solution'
+    name = 'Solution Design'
+    url = '/docs/solution-design/'
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
